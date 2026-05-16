@@ -43,7 +43,7 @@ python train_complete.py
 ### 4.1 损失曲线
 在此插入训练损失图（如 `box_loss`、`cls_loss`、`dfl_loss` 等）。
 
-![损失曲线](runs/detect/traffic_signs_complete/results.png)
+![损失曲线](docs/images/results.png)
 
 请结合图像回答以下问题：
 1. 损失是否总体下降？
@@ -61,7 +61,7 @@ python train_complete.py
 ### 4.2 评价指标变化
 在此插入 `Precision`、`Recall`、`mAP50`、`mAP50-95` 等曲线图。
 
-![指标曲线](runs/detect/traffic_signs_complete/results.png)
+![指标曲线](docs/images/results.png)
 
 请简要分析：
 1. 哪个指标提升最明显？
@@ -79,7 +79,7 @@ python train_complete.py
 
 在此插入混淆矩阵图。
 
-![混淆矩阵](runs/detect/traffic_signs_complete/confusion_matrix.png)
+![混淆矩阵](docs/images/confusion_matrix.png)
 
 请重点分析：
 1. 哪些类别识别效果最好？
@@ -103,8 +103,8 @@ python train_complete.py
 
 在此插入若干预测结果图（建议 2 到 4 张）。
 
-![预测结果1](runs/detect/traffic_signs_complete/val_batch0_pred.jpg)
-![预测结果2](runs/detect/traffic_signs_complete/val_batch1_pred.jpg)
+![预测结果1](docs/images/val_batch0_pred.jpg)
+![预测结果2](docs/images/val_batch1_pred.jpg)
 
 请分析：
 1. 哪些目标检测较准确？
